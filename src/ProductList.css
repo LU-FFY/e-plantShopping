@@ -164,6 +164,37 @@ body {
     color: white;
     display: flex;
 }
+
+.cart-icon {
+  position: relative;
+  width: 68px; /* match SVG width */
+  height: 68px; /* match SVG height */
+}
+
+.cart-icon svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cart-count-inside {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* ← Adjusted based on your SVG */
+  bottom: 10px;
+  left: 38px;
+}
+
 .cart_quantity_count{
     margin-top: 16px;
     /* background-color: red; */
