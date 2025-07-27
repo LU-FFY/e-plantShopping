@@ -160,48 +160,23 @@ body {
     width: 650px;
     font-size: 19px;
 }
-.cart{
-    color: white;
-    display: flex;
-}
-
 .cart-icon {
-  position: relative;
-  width: 68px; /* match SVG width */
-  height: 68px; /* match SVG height */
+    position: relative;
+    width: 68px;
+    height: 68px;
+    display: inline-block;
 }
-
-.cart-icon svg {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.cart-count-inside {
-  position: absolute;
-  background-color: red;
-  color: white;
-  font-weight: bold;
-  font-size: 14px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* ← Adjusted based on your SVG */
-  bottom: 10px;
-  left: 38px;
-}
-
-.cart_quantity_count{
-    margin-top: 16px;
-    /* background-color: red; */
-    margin-left: 27px;
+  
+.cart-badge {
     position: absolute;
-    font-size: 29px;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    pointer-events: none;
 }
 .plantname_heading{
    display: flex;
